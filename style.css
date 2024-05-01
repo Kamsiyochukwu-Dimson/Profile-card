@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(236, 202, 215);
+    display: flex;
+    justify-content: center;
+}
+main{
+    margin: 3rem;
+    padding: 2rem;
+    background-color: beige;
+    border-radius: 5%;
+    width: 70vh;
+}
+.img img{
+    width: 50vh;
+    border-radius: 50%;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1.5rem;
+}
+.img h2{
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.img .job-title{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.img .description{
+    text-align: left;
+}
+
